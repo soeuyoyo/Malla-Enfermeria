@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Malla Interactiva de Ramo</h1>
+        
+        <!-- Primer Año - Primer Semestre -->
+        <div class="semestre">
+            <h2>Primer Año - Primer Semestre</h2>
+            <div class="ramo" id="biologia-cellular">
+                <button onclick="toggleRamo('biologia-cellular')">Biología Celular</button>
+                <div class="requisitos">Requisitos: Histoembriología, Microbiología y Parasitología</div>
+            </div>
+            <div class="ramo" id="fundamento-actuar-comunitario">
+                <button onclick="toggleRamo('fundamento-actuar-comunitario')">Fundamento del Actuar Comunitario</button>
+                <div class="requisitos">Requisitos: Fundamentos éticos del actuar comunitario, Fundamentos de Enfermería en salud comunitaria</div>
+            </div>
+            <!-- Agregar los demás ramos de este semestre -->
+        </div>
+
+        <!-- Segundo Semestre -->
+        <div class="semestre">
+            <h2>Primer Año - Segundo Semestre</h2>
+            <div class="ramo" id="enfermeria-vida-humana">
+                <button onclick="toggleRamo('enfermeria-vida-humana')">Enfermería en el curso de la vida humana</button>
+                <div class="requisitos">Requisitos: Proceso de atención de Enfermería 1</div>
+            </div>
+            <!-- Agregar los demás ramos de este semestre -->
+        </div>
+
+        <!-- Repetir estructura para el resto de la malla académica -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
